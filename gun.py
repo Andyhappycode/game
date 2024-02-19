@@ -14,9 +14,9 @@ class gun:
         return "%s,%d"%(self.colour,self.botton)
 mygun=gun()
 while True:
-    a=int(input("1、加子弹 2、发射"))
+    a=int(input("1.Add bullets 2.fire"))
     if a==1:
         mygun.take()
     else:
         mygun.fire()
-    print("当前状态：",mygun)
+    print("current state:",mygun)
