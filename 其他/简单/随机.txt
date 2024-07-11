@@ -1,0 +1,27 @@
+1. random.random()
+作用：随机生成一个[0,1)之间的浮点数
+
+
+2. random.randint(a, b)
+作用：随机生成[a, b]范围内一个整数
+
+
+3. random.randrange(a, b, step)
+作用：随机生成[a, b]范围内一个整数，如果指定step，step作为步长会进一步限制[a,b]的范围，比如randrange(10, 20, 2)表示生成[10, 20)范围内的随机偶数
+
+
+4. random.uniform(a, b)
+作用：产生[a, b]范围内一个随机浮点数
+
+
+5. random.choice(list)
+作用：从数组中随机选取一个数据
+
+
+6. random.sample(list, n)
+作用：从数组中随机选取n个数据
+
+
+7. random.shuffle(list)
+作用：打乱一个数组的顺序，返回值为None
+

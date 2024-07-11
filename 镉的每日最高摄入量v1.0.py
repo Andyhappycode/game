@@ -1,0 +1,17 @@
+a=int(input("请输入你的体重单位：1、斤 2、千克"))
+if a==1:
+    b=int(input("请输入你的体重（斤）："))
+    print("你每天镉的最高摄入量为：")
+    print(b/2*0.83,end='')
+    print("微克")
+    print("或")
+    print(float('%.8f'%b)/2*0.83/1000000,end='')
+    print("克")
+elif a==2:
+    b=int(input("请输入你的体重（千克）："))
+    print("你每天镉的最高摄入量为：")
+    print(b*0.83,end='')
+    print("毫克")
+    print("或")
+    print(float('%.8f'%b)*0.83/1000000,end='')
+    print("克")
